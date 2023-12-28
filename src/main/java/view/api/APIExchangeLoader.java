@@ -1,10 +1,10 @@
-package api;
+package view.api;
 
-import interfaces.ExchangeLoader;
-import interfaces.ReferenceRateLoader;
-import interfaces.SymbolLoader;
-import models.Currency;
-import models.ExchangeRate;
+import view.ExchangeLoader;
+import view.ReferenceRateLoader;
+import view.SymbolLoader;
+import model.Currency;
+import model.ExchangeRate;
 
 import java.util.Map;
 

@@ -1,9 +1,9 @@
-package api;
+package view.api;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import interfaces.SymbolLoader;
+import view.SymbolLoader;
 
 import java.io.IOException;
 import java.io.InputStream;

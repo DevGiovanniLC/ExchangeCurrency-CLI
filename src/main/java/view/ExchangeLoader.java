@@ -1,6 +1,6 @@
-package interfaces;
+package view;
 
-import models.ExchangeRate;
+import model.ExchangeRate;
 
 public interface ExchangeLoader {
     ExchangeRate load(String from, String to, String date);

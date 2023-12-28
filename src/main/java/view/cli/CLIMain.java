@@ -1,6 +1,6 @@
-package cli;
+package view.cli;
 
-import interfaces.CommandInterface;
+import controller.CommandInterface;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -25,7 +25,7 @@ public class CLIMain implements CommandInterface {
         System.out.println("Type the ISO code of the currency to exchange: (xxx) ");
         this.currencyTo = scanner.next();
 
-        System.out.println("type the selected date to exchange: (yyyy-mm-dd) or latest");
+        System.out.println("Type the selected date to exchange: (yyyy-mm-dd) or latest");
         String date = scanner.next();
         this.selectedDate = date.equals("latest") ? LocalDate.now(): LocalDate.parse(date);
     }

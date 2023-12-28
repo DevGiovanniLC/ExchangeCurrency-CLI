@@ -1,4 +1,4 @@
-package models;
+package model;
 
 public record Currency(String symbol, String name, Double referenceValue){
     @Override

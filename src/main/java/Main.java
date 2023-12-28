@@ -1,7 +1,11 @@
-import Commands.Controller;
-import api.*;
-import cli.CLIMain;
-import interfaces.*;
+import controller.Controller;
+import view.ExchangeLoader;
+import view.ReferenceRateLoader;
+import view.SymbolLoader;
+import view.api.APIExchangeLoader;
+import view.api.APIReferenceRateLoader;
+import view.api.APISymbolLoader;
+import view.cli.CLIMain;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package interfaces;
+package view;
 
 import java.util.Map;
 

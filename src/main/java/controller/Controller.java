@@ -1,8 +1,6 @@
-package Commands;
+package controller;
 
-import interfaces.Command;
-import interfaces.CommandInterface;
-import interfaces.ExchangeLoader;
+import view.ExchangeLoader;
 
 import java.util.HashMap;
 import java.util.Map;

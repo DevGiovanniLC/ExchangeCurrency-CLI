@@ -1,11 +1,11 @@
-package api;
+package view.api;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.*;
 
-import interfaces.ReferenceRateLoader;
+import view.ReferenceRateLoader;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
